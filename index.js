@@ -4,13 +4,13 @@ const homeScore = document.getElementById("home-score")
 const guestScore = document.getElementById("guest-score")
 
 
-function add(e, item) {
+function add(pointsToAdd, item) {
     if(item == "home") {
-        resultHome += e
+        resultHome += pointsToAdd
         homeScore.innerHTML = resultHome
         liderHighlight()
     } else if(item == "guest") {
-        resultGuest += e
+        resultGuest += pointsToAdd
         guestScore.innerHTML = resultGuest
         liderHighlight()
     }
@@ -21,6 +21,7 @@ function newGame() {
     resultGuest = 0
     homeScore.innerHTML = resultHome
     guestScore.innerHTML = resultGuest
+    liderHighlight()
 }
 
 function liderHighlight() {

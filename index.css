@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: darkslateblue;
+    font-family: 'Digital Numbers', sans-serif;
 }
 .container {
     display: flex;
@@ -13,9 +14,7 @@ h1 {
     color: red;
     padding: 25px 50px;
     border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Digital Numbers', sans-serif;
+    margin: 10px 0px 5px 0px;
     font-size: 60px;
 }
 h3 {
@@ -23,7 +22,7 @@ h3 {
     font-size: 35px;
     margin-bottom: 5px;
     color: white;     
-    font-family: 'Cursed Timer ULiL', sans-seri
+    font-family: sans-serif
 }
 .buttons {
     display: flex;
@@ -36,7 +35,6 @@ button {
     background-color: darkslateblue;
     color: rgb(189, 216, 235);
     padding: 3px 5px;
-    font-family: 'Digital Numbers', sans-serif;
     cursor: pointer;
 }
 #new-game {
