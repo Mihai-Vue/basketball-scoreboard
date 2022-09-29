@@ -2,6 +2,8 @@ body {
     margin: 0;
     background-color: darkslateblue;
     font-family: 'Digital Numbers', sans-serif;
+    background-image: url("./basket.webp");
+    text-shadow: 0 0 1px black;
 }
 .container {
     display: flex;
@@ -9,13 +11,16 @@ body {
     margin-bottom: 20px;
 }
 h1 {
+
     text-align: center;
     background-color: black;
     color: red;
-    padding: 25px 50px;
     border-radius: 5px;
-    margin: 10px 0px 5px 0px;
     font-size: 60px;
+    width: 150px;
+    height: 100px;
+    padding-top: 20px;
+    border: 2px solid white;
 }
 h3 {
     text-align: center;

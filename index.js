@@ -24,15 +24,16 @@ function newGame() {
     liderHighlight()
 }
 
+
 function liderHighlight() {
     if(resultHome > resultGuest) {
-        homeScore.style.backgroundColor = "grey"
-        guestScore.style.backgroundColor = "black"
+        homeScore.style.borderColor = "ea3546"
+        guestScore.style.borderColor = "white"
     } else if(resultGuest > resultHome) {
-        guestScore.style.backgroundColor = "grey"
-        homeScore.style.backgroundColor = "black"
+        guestScore.style.borderColor = "ea3546"
+        homeScore.style.borderColor = "white"
     } else {
-        guestScore.style.backgroundColor = "black"
-        homeScore.style.backgroundColor = "black"
+        guestScore.style.borderColor = "white"
+        homeScore.style.borderColor = "white"
     }
 }
